@@ -1,18 +1,25 @@
 <!DOCTYPE html>
 <?php
-    require "header.php";
+    require "frame.php";
 ?>
 
-<main>
+<html>
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="styles/index-style.css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Lucifer Monao</title>
+        <meta name="description" content="Home Site">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles/index.css">
     </head>
-</main>
+    <body>
+        <div id="container">
+            <h1>Hello</h1>
 
-<?php
-    require "footer.php";
-?>
+        </div>
+        <script type="text/javascript" src="includes/index.inc.js"></script>
+    </body>
+</html>
 
 
 
