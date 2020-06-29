@@ -10,7 +10,7 @@
             <nav id="nav-frame" class="frame">
                 <ul>
                     <li><a href="hypixel/index.php">Minion Leaderboard</a></li>
-                    <li><a href="#">Clicktest</a></li>
+                    <li><a href="clicktest/index.php">Clicktest</a></li>
                     <li><a href="#">About me</a></li>
                 </ul>
             </nav>
