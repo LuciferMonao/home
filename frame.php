@@ -9,7 +9,7 @@
         <div id="side-frame" class="frame">
             <nav id="nav-frame" class="frame">
                 <ul>
-                    <li><a href="hypixel/index.php">Minion Leaderboard</a></li>
+                    <li id="top-li-el"><a href="hypixel/index.php">Minion Leaderboard</a></li>
                     <li><a href="clicktest/index.php">Clicktest</a></li>
                     <li><a href="#">About me</a></li>
                 </ul>
@@ -21,9 +21,11 @@
         </div>
         
         <div id="bottom-frame" class="frame">
-            <h2>Copyright &copy 2020 Lucifer Monao. Some rights reserved</h2>
+            <a href="github.com/LuciferMonao/home"><img src="https://img.icons8.com/fluent/48/000000/github.png"/></a><a href="mailto:Lucifermonao@gmx.de"><img src="https://img.icons8.com/ios-filled/50/000000/important-mail.png"/></a><h2>Copyright &copy 2020 Lucifer Monao. Some rights reserved</h2>
         </div>
 
         <script src="frame.inc.js"></script>
     </body>
 </html>
+
+<?php ?>
