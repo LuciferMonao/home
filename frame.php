@@ -1,3 +1,15 @@
+<?php 
+    session_start();
+    if (!isset($_COOKIE["visits"])) {
+        if (isset($_COOKIE["visits"])) {
+            $_SESSION["visits"] = $_COOKIE["visits"] + 1;
+            $_COOKIE["visits"] = $_SESSION["visits"];
+        } else {
+            setcookie('visits', $_SESSION["visits"], time() + 86400 * 365, "/");
+        }
+    }
+?>
+
 <!DOCTYPE html>
     <head>
         <meta charset="utf-8">
@@ -27,5 +39,3 @@
         <script src="frame.inc.js"></script>
     </body>
 </html>
-
-<?php ?>
