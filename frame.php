@@ -1,10 +1,11 @@
 <?php 
     session_start();
-    if (!isset($_COOKIE["visits"])) {
+    if (!isset($_SESSION["visits"])) {
         if (isset($_COOKIE["visits"])) {
             $_SESSION["visits"] = $_COOKIE["visits"] + 1;
             $_COOKIE["visits"] = $_SESSION["visits"];
         } else {
+            $_SESSION["visits"] = 1;
             setcookie('visits', $_SESSION["visits"], time() + 86400 * 365, "/");
         }
     }
@@ -21,8 +22,8 @@
         <div id="side-frame" class="frame">
             <nav id="nav-frame" class="frame">
                 <ul>
-                    <li id="top-li-el"><a href="hypixel/index.php">Minion Leaderboard</a></li>
-                    <li><a href="clicktest/index.php">Clicktest</a></li>
+                    <li id="top-li-el"><a href="projects/minion-leaderboard/index.php">Minion Leaderboard</a></li>
+                    <li><a href="projects/clicktest/index.php">Clicktest</a></li>
                     <li><a href="#">About me</a></li>
                 </ul>
             </nav>
