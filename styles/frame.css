@@ -46,8 +46,7 @@ body {
     position: fixed;
     left: 1vw;
     top: 18vw;
-    /*height: 20vw;*/
-    bottom: 14vw;
+    height: 38%;
     background-color: rgb(23, 134, 185);
     width: 13%;
     border: 2px solid black;
