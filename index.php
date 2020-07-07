@@ -15,6 +15,7 @@
     <body>
         <div id="container">
             <h1>Hello</h1>
+            <?php echo $_SESSION["visits"]?>
 
         </div>
         <script type="text/javascript" src="includes/index.inc.js"></script>
