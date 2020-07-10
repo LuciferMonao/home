@@ -45,8 +45,7 @@ body {
 #side-frame {
     position: fixed;
     left: 1vw;
-    top: 18vw;
-    height: 38%;
+    top: 30%;
     background-color: rgb(23, 134, 185);
     width: 13%;
     border: 2px solid black;
@@ -63,12 +62,8 @@ body {
     text-align: center;
 }
 
-#top-li-el {
-    margin-top: 2vw;
-}
-
 #nav-frame > ul > li > a {
-    font-size: 1vw;
+    font-size: 110%;
     padding: 0.5vw;
     text-decoration: none;
     color: black;
